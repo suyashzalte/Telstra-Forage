@@ -16,6 +16,7 @@ public class SimCard {
         this.customerEmail = customerEmail;
         this.active = active;
     }
+    public SimCard(SimCardRecord simCardRecord){}
 
     public String getIccid() {
         return iccid;
